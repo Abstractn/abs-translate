@@ -1,0 +1,34 @@
+{
+  "name": "abs-translate",
+  "version": "1.0.0",
+  "description": "A simple translation system for static pages",
+  "types": "dist/abs-translate.d.ts",
+  "browser": "dist/abs-translate.js",
+  "scripts": {
+    "cleanDist": "rimraf dist",
+    "buildTypescript": "tsc",
+    "copyTypescript": "copyfiles -f ./src/*.ts dist",
+    "generateNxScript": "node ./build-utils/generateNxScript.js ./dist/abs-translate.js",
+    "build": "npm run cleanDist && npm run buildTypescript && npm run copyTypescript && npm run generateNxScript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abstractn/abs-translate.git"
+  },
+  "keywords": [
+    "translate",
+    "multilanguage",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Abstractn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abstractn/abs-translate/issues"
+  },
+  "homepage": "https://github.com/Abstractn/abs-translate#readme",
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
