@@ -1,6 +1,6 @@
 {
   "name": "abs-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple translation system for static pages",
   "types": "dist/abs-translate.d.ts",
   "browser": "dist/abs-translate.js",
