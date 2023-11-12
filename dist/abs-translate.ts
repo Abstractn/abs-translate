@@ -22,9 +22,7 @@ export class AbsTranslate {
     this.missingTranslationWarning = config?.missingTranslationWarning || true;
     this._dictionary = config?.dictionary || [];
     this._currentLanguage = config?.initialLanguage || null;
-    if(this._currentLanguage) {
-      this.translate();
-    }
+    this._currentLanguage && this.translate();
   }
 
   public static readonly DEFAULT_STORAGE_KEY: string = 'abs.translate';
