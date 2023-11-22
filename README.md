@@ -1,5 +1,7 @@
 # Abs-Translate
 
+[![npm version](https://badgen.net/npm/v/abs-translate)](https://www.npmjs.com/package/abs-translate) [![Install size](https://packagephobia.com/badge?p=abs-translate)](https://packagephobia.com/result?p=abs-translate)
+
 
 ## Introduction:
 
